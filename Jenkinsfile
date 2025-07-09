@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone from GitHub') {
             steps {
-                git 'https://github.com/avi-7245/Devops_project1.git'
+                    git branch: 'main', url: 'https://github.com/avi-7245/Devops_project1.git'
             }
         }
 
